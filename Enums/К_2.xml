@@ -1,0 +1,103 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.15">
+	<Enum uuid="d57635bd-59d3-44af-8018-9eff4f3921bc">
+		<InternalInfo>
+			<xr:GeneratedType name="EnumRef.К_2" category="Ref">
+				<xr:TypeId>a77cbd7f-cf30-461f-97ad-8ef7ad2efa74</xr:TypeId>
+				<xr:ValueId>a1f5cf60-d0fe-41c2-b959-b2150998a051</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumManager.К_2" category="Manager">
+				<xr:TypeId>0de93cb3-0698-4512-a126-fa9bcedb4c7d</xr:TypeId>
+				<xr:ValueId>35be8ea1-992b-47c2-bdcc-eb1b5e3a5d57</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumList.К_2" category="List">
+				<xr:TypeId>da85216b-f09d-4430-8032-2d72661f2c1c</xr:TypeId>
+				<xr:ValueId>f59c42d2-e955-4a77-96ba-ac2b19913daf</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>К_2</Name>
+			<Synonym>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Коэффициент трудоемкости К2 </v8:content>
+				</v8:item>
+			</Synonym>
+			<Comment/>
+			<UseStandardCommands>false</UseStandardCommands>
+			<Characteristics/>
+			<QuickChoice>true</QuickChoice>
+			<ChoiceMode>BothWays</ChoiceMode>
+			<DefaultListForm/>
+			<DefaultChoiceForm/>
+			<AuxiliaryListForm/>
+			<AuxiliaryChoiceForm/>
+			<ListPresentation/>
+			<ExtendedListPresentation/>
+			<Explanation/>
+			<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
+		</Properties>
+		<ChildObjects>
+			<EnumValue uuid="af0b091c-2cf7-409e-b35a-70ac6c737e9f">
+				<Properties>
+					<Name>_1_0</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Товар полностью произведен</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="74a28b32-77f0-4164-9ddf-749bb31263fc">
+				<Properties>
+					<Name>_1_1</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Выполнение принципа кумуляции</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="bef39261-3217-4633-a740-bbb3bc797822">
+				<Properties>
+					<Name>_1_2</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Товар подвергнут достаточной обработке/переработке</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="2098bf7e-4436-4275-957d-acb0618494b1">
+				<Properties>
+					<Name>_1_3</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Применение к заявленным товарам двух из выше-перечисленных критериев (в любой комбинации)</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="b53f90ba-e20b-4fd1-b2ab-ac98a04e4326">
+				<Properties>
+					<Name>_1_4</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Применение к заявленным товарам  трех вышеуказанных критериев</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+				</Properties>
+			</EnumValue>
+		</ChildObjects>
+	</Enum>
+</MetaDataObject>

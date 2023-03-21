@@ -1,0 +1,115 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.15">
+	<Enum uuid="10c0a9f1-d161-4d30-8bdd-6cd96b17c425">
+		<InternalInfo>
+			<xr:GeneratedType name="EnumRef.К_3" category="Ref">
+				<xr:TypeId>5122a352-b162-4428-81b4-46a2f4a67f73</xr:TypeId>
+				<xr:ValueId>915e90bd-01db-441b-8a06-5b99b9222a84</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumManager.К_3" category="Manager">
+				<xr:TypeId>982c8a30-c47c-4dae-8665-93bf643a8986</xr:TypeId>
+				<xr:ValueId>3bbc2b8f-e6e0-49f2-b3f5-3e2827213633</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumList.К_3" category="List">
+				<xr:TypeId>84038c9c-9867-420c-b7bb-b992bf5a9cc0</xr:TypeId>
+				<xr:ValueId>814f69ea-6513-4e41-8e6e-0a996910f6b4</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>К_3</Name>
+			<Synonym>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Коэффициент трудоемкости К3 </v8:content>
+				</v8:item>
+			</Synonym>
+			<Comment/>
+			<UseStandardCommands>false</UseStandardCommands>
+			<Characteristics/>
+			<QuickChoice>true</QuickChoice>
+			<ChoiceMode>BothWays</ChoiceMode>
+			<DefaultListForm/>
+			<DefaultChoiceForm/>
+			<AuxiliaryListForm/>
+			<AuxiliaryChoiceForm/>
+			<ListPresentation/>
+			<ExtendedListPresentation/>
+			<Explanation/>
+			<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
+		</Properties>
+		<ChildObjects>
+			<EnumValue uuid="5c70a172-f4d7-44cb-93f1-99958dd64cac">
+				<Properties>
+					<Name>_1_0</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Товарные группы: 01; 03; 06; 07; 08; 10; 12; 14; 25; 26; товарные позиции: 1801; 1802; 2201; 2101; 2701-2703; 2709; 2711; 4301; 4401; 4501; 5001-5003; 7101-7105</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="d6361a22-10a8-43c8-83b8-12df2b81faa7">
+				<Properties>
+					<Name>_1_1</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Товарные группы: 02; 04; 05; 09; 11; 13; 15; 23; 41; 51; 52; 53</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="bef395b6-9482-4530-beef-0ef2538649db">
+				<Properties>
+					<Name>_1_2</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Товарные группы: 16; 17;18 (кроме товарных позиций 1801 и 1802); 19; 20; 21; 22 (кроме товарной позиции 2201); 24 (кроме товарной позиции 2401); 27 (кроме товарных позиций 2701-2703, 2709, 2711); 28; 29; 42; 43 (кроме товарной позиции 4301);  44 (кроме то</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="94e8ac92-8a48-449f-8674-7cc92e851757">
+				<Properties>
+					<Name>_1_3</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Товарные группы: 30; 31; 32; 33; 34; 35; 36; 38; 39; 40 (кроме товарной позиции 4001); 48; 49; 50 (кроме товарных позиций 5001-5003); 61; 62; 63; 64; 65; 66; 82; 83; 95; 96; 97</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="50148884-16ca-4c26-bb96-f5e5b43146e6">
+				<Properties>
+					<Name>_1_4</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Товарные группы: 37; 90; 91; 92; 94</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="cc991dfc-62b9-49ea-9521-076023ef903d">
+				<Properties>
+					<Name>_1_5</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Товарные группы: 84; 85; 86; 87; 88; 89; 93</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+				</Properties>
+			</EnumValue>
+		</ChildObjects>
+	</Enum>
+</MetaDataObject>

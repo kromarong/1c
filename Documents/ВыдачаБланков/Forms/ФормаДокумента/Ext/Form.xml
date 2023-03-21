@@ -1,0 +1,133 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.15">
+	<ScalingMode>Normal</ScalingMode>
+	<AutoTime>CurrentOrLast</AutoTime>
+	<UsePostingMode>Auto</UsePostingMode>
+	<RepostOnWrite>true</RepostOnWrite>
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1"/>
+	<ChildItems>
+		<UsualGroup name="Группа1" id="25">
+			<Behavior>Usual</Behavior>
+			<Representation>None</Representation>
+			<ShowTitle>false</ShowTitle>
+			<ExtendedTooltip name="Группа1РасширеннаяПодсказка" id="26"/>
+			<ChildItems>
+				<InputField name="Номер" id="1">
+					<DataPath>Объект.Number</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="НомерКонтекстноеМеню" id="2"/>
+					<ExtendedTooltip name="НомерРасширеннаяПодсказка" id="3"/>
+				</InputField>
+				<InputField name="Дата" id="4">
+					<DataPath>Объект.Date</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="ДатаКонтекстноеМеню" id="5"/>
+					<ExtendedTooltip name="ДатаРасширеннаяПодсказка" id="6"/>
+				</InputField>
+			</ChildItems>
+		</UsualGroup>
+		<InputField name="Организация" id="34">
+			<DataPath>Объект.Организация</DataPath>
+			<ContextMenu name="ОрганизацияКонтекстноеМеню" id="35"/>
+			<ExtendedTooltip name="ОрганизацияРасширеннаяПодсказка" id="36"/>
+		</InputField>
+		<InputField name="ВидБланка" id="7">
+			<DataPath>Объект.ВидБланка</DataPath>
+			<TitleFont ref="style:NormalTextFont" bold="true" italic="false" underline="false" strikeout="false" kind="StyleItem"/>
+			<EditMode>EnterOnInput</EditMode>
+			<ContextMenu name="ВидБланкаКонтекстноеМеню" id="8"/>
+			<ExtendedTooltip name="ВидБланкаРасширеннаяПодсказка" id="9"/>
+		</InputField>
+		<InputField name="Эксперт" id="10">
+			<DataPath>Объект.Эксперт</DataPath>
+			<TitleFont ref="style:NormalTextFont" bold="true" italic="false" underline="false" strikeout="false" kind="StyleItem"/>
+			<EditMode>EnterOnInput</EditMode>
+			<ContextMenu name="ЭкспертКонтекстноеМеню" id="11"/>
+			<ExtendedTooltip name="ЭкспертРасширеннаяПодсказка" id="12"/>
+		</InputField>
+		<UsualGroup name="Группа2" id="27">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Заполните номера выдаваемых бланков и (или) количество доп. листов</v8:content>
+				</v8:item>
+			</Title>
+			<TitleTextColor>#993366</TitleTextColor>
+			<TitleFont ref="style:ВажнаяНадписьШрифт" bold="true" italic="true" underline="false" strikeout="false" kind="StyleItem"/>
+			<Group>AlwaysHorizontal</Group>
+			<Behavior>Usual</Behavior>
+			<Representation>StrongSeparation</Representation>
+			<ExtendedTooltip name="Группа2РасширеннаяПодсказка" id="28"/>
+			<ChildItems>
+				<InputField name="НачальныйНомер" id="16">
+					<DataPath>Объект.НачальныйНомер</DataPath>
+					<TitleFont ref="style:NormalTextFont" bold="true" italic="false" underline="false" strikeout="false" kind="StyleItem"/>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="НачальныйНомерКонтекстноеМеню" id="17"/>
+					<ExtendedTooltip name="НачальныйНомерРасширеннаяПодсказка" id="18"/>
+					<Events>
+						<Event name="OnChange">НачальныйНомерПриИзменении</Event>
+					</Events>
+				</InputField>
+				<InputField name="КонечныйНомер" id="19">
+					<DataPath>Объект.КонечныйНомер</DataPath>
+					<TitleFont ref="style:NormalTextFont" bold="true" italic="false" underline="false" strikeout="false" kind="StyleItem"/>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="КонечныйНомерКонтекстноеМеню" id="20"/>
+					<ExtendedTooltip name="КонечныйНомерРасширеннаяПодсказка" id="21"/>
+					<Events>
+						<Event name="OnChange">КонечныйНомерПриИзменении</Event>
+					</Events>
+				</InputField>
+			</ChildItems>
+		</UsualGroup>
+		<InputField name="ВсегоБланков" id="37">
+			<DataPath>Объект.ВсегоБланков</DataPath>
+			<TitleFont ref="style:NormalTextFont" bold="false" italic="true" underline="false" strikeout="false" kind="StyleItem"/>
+			<ContextMenu name="ВсегоБланковКонтекстноеМеню" id="38"/>
+			<ExtendedTooltip name="ВсегоБланковРасширеннаяПодсказка" id="39"/>
+		</InputField>
+		<UsualGroup name="Группа3" id="32">
+			<Group>AlwaysHorizontal</Group>
+			<Behavior>Usual</Behavior>
+			<Representation>StrongSeparation</Representation>
+			<ShowTitle>false</ShowTitle>
+			<ExtendedTooltip name="Группа3РасширеннаяПодсказка" id="33"/>
+			<ChildItems>
+				<InputField name="ДополнительныеЛисты" id="29">
+					<DataPath>Объект.ДополнительныеЛисты</DataPath>
+					<TitleFont ref="style:NormalTextFont" bold="true" italic="false" underline="false" strikeout="false" kind="StyleItem"/>
+					<ContextMenu name="ДополнительныеЛистыКонтекстноеМеню" id="30"/>
+					<ExtendedTooltip name="ДополнительныеЛистыРасширеннаяПодсказка" id="31"/>
+				</InputField>
+			</ChildItems>
+		</UsualGroup>
+		<InputField name="Комментарий" id="22">
+			<DataPath>Объект.Комментарий</DataPath>
+			<TitleLocation>Top</TitleLocation>
+			<EditMode>EnterOnInput</EditMode>
+			<AutoMaxHeight>false</AutoMaxHeight>
+			<HeightControlVariant>UseContentHeight</HeightControlVariant>
+			<ContextMenu name="КомментарийКонтекстноеМеню" id="23"/>
+			<ExtendedTooltip name="КомментарийРасширеннаяПодсказка" id="24"/>
+		</InputField>
+		<LabelField name="Ответственный" id="13">
+			<DataPath>Объект.Ответственный</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<ContextMenu name="ОтветственныйКонтекстноеМеню" id="14"/>
+			<ExtendedTooltip name="ОтветственныйРасширеннаяПодсказка" id="15"/>
+		</LabelField>
+	</ChildItems>
+	<Attributes>
+		<Attribute name="Объект" id="1">
+			<Type>
+				<v8:Type>cfg:DocumentObject.ВыдачаБланков</v8:Type>
+			</Type>
+			<MainAttribute>true</MainAttribute>
+			<SavedData>true</SavedData>
+			<UseAlways>
+				<Field>Объект.RegisterRecords</Field>
+			</UseAlways>
+		</Attribute>
+	</Attributes>
+</Form>
